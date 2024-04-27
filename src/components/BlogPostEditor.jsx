@@ -71,7 +71,7 @@ const BlogPostEditor = () => {
           onChange={handleChange}
           placeholder="Start writing in Markdown..."
         />
-        <div className="mt-4">
+        <div className="mt-6">
           <button
             className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mr-2"
             onClick={handleSaveDraft}
